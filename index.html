@@ -26,18 +26,34 @@
                 <a href="#">Proyectos</a>    
                 <a href="#">Contacto</a>    
             </nav>
+            <button id="open">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 open">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
         </header>
 
+            <!-- Aquí está el menú hamburguesa -->
+             <div id="sidebar-back" class="sidebar-back"></div>
+             <div id="sidebar" class="sidebar">
+                <div class="sidebar-content">
+                    <button id="close" class="toggle-sidebar">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                    </button>
+                </div>
+             </div>
         <section class="portfolio-hero">
             <div class="title">
-                <h1>Construyendo puentes entre el software Y el código</h1>
+                <h1>Para los que desafían lo común, crean su propio camino y buscan ir más allá.</h1>
                 <p>
-                    Soy Juan Buritica, un Ingeniero de Sistemas I Desarrollador Fullstack especializado en React y Node.js en el Parque Jaime Duque, donde desarrollo herramientas intenas ysistemas personalizados que resuelven problemas reales. Disfruto aprender nuevas tecnologías y crear proyectos personales que reflejan tanto la lógica como la introspección.
+                    Hace un tiempo, decidí dejar de esperar y empezar a construir mi camino. El cambio real en los negocios no llega solo con saber qué hacer, sino con tomar decisiones, arriesgar y actuar. He trabajado en proyectos donde la ingeniería, la tecnología y los negocios se encuentran, siempre buscando soluciones que marquen la diferencia. Mi motivación es transformar ideas en resultados concretos, simplificando lo complejo y enfocándome en lo que realmente importa: decisiones correctas, relaciones estratégicas y valor a largo plazo. Si quieres llevar tu negocio al siguiente nivel o intercambiar ideas, hablemos.
                 </p>
             </div>
 
             <div class="image">
-                <img src="https://images.unsplash.com/photo-1762912302731-508b4580735f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen del interior de una montaña">
+                <img src="./assets/Image/Pic.jpg" alt="Imagen del interior de una montaña">
             </div>
         </section>
         
@@ -51,14 +67,14 @@
                 <article class="card">
                     <div class="header">
                         <div>
-                            <h2>Parque Jaime Duque</h2>
-                            <p>Desarrollador de Sistemas</p>
+                            <h2>Interlix Staffing</h2>
+                            <p>Recruitment Associate</p>
                         </div>
 
-                        <span>2023 - Presente</span>
+                        <span>Sep 2025 - Presente</span>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, possimus consequatur!
+                        Conectar talento de LATAM con oportunidades en EE. UU. cambia vidas. Cada conexión abre puertas a nuevas posibilidades, impulsa carreras y permite que las empresas accedan a los mejores profesionales para llevar sus proyectos a otro nivel. Unimos lo que más importa: personas con visión y empresas que transforman.   
                     </p>
                     <div class="images">
                         <img src="https://images.unsplash.com/photo-1761839257469-96c78a7c2dd3?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flores">
@@ -66,100 +82,104 @@
                     </div>
                 </article>    
 
-                <article class="card">
-                    <div class="header">
-                        <div>
-                            <h2>Parque Jaime Duque</h2>
-                            <p>Desarrollador de Sistemas</p>
-                        </div>
 
-                        <span>2023 - Presente</span>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, possimus consequatur!
-                    </p>
-                    <div class="images">
-                        <img src="https://images.unsplash.com/photo-1761839257469-96c78a7c2dd3?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flores">
-                        <img src="https://plus.unsplash.com/premium_photo-1661878115335-a1f2788b2f43?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Atardecer">
-                    </div>
-                </article>  
-            </div>
 
 
                 <div class = "cards">
-                <h1>Educacion</h1>
-
-                <article class="card">
-                    <div>
-                        <h2>UNIVERSIDAD PATITO</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem aut, eligendi voluptatibus vero fugiat esse totam eaque repudiandae voluptas. Itaque exercitationem odit a est, eligendi similique maiores recusandae minus dolorum.</p>
-                    </div>
-                </article>
-            </div>
+                    <h1>Educación</h1>
+                    <article class="card">
+                        <div>
+                            <h2>Universidad Politécnica Salesiana</h2>
+                            <p>
+                                En la Universidad Politécnica Salesiana (UPS), desarrollé una formación sólida como Ingeniero Mecatrónico, combinando conocimientos de ingeniería, robótica y automatización. Mi educación me preparó para resolver problemas complejos con soluciones innovadoras, enfocándome siempre en integrar tecnología y procesos para crear un impacto real en el mundo.
+                            </p>
+                        </div>
+                    </article>
+                </div>
 
                 <div class = "cards">
                 <h1>Habilidades</h1>
 
                 <article>
                     <div>
-                        <h2></h2>
-                        <p></p>
+                        <h2>Tecnologías</h2>
+                        <p>HTML, CSS y JavaScript</p>
                     </div>
                 </article>
                 </div>
         </section>
         
-        <section class="portfolio-projects"> 
-            <div>   
+        <section class="portfolio-projects">  
+            <div class="title">
                 <h1>Proyectos</h1>
-                <p></p>
-                
-                <div>
-                <article>
-                    <h2></h2>
-                    <p></p>
-                    <img src="" alt="">
-                </article>
-
-                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nemo cupiditate asperiores ipsam delectus reiciendis sequi similique maxime vero. Quas earum commodi animi maxime, nostrum fugit dolor voluptas a alias.</p>
             </div>
+                
+                
+                <div class="cards">
+                <article>
+                    <h2>Doble Vía: UCLL - UPS</h2>
+                    <p>Doble Vía fue un proyecto que creé para reforzar el aprendizaje matemático de los niños en mi ciudad, utilizando videojuegos como herramienta educativa. Adapté un software existente y lo integré en un dispositivo tecnológico interactivo, alineado con los Objetivos de Desarrollo Sostenible (ODS). Este proyecto permitió a los niños aprender matemáticas de forma divertida y efectiva, aprovechando la tecnología para impulsar su educación.</p>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1614947746254-4fd8c6cb1a7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2plY3RzfGVufDB8fDB8fHww" alt="Projects">
+                    </div>
+                </article>
+                <article>
+                    <h2>Doble Vía: UCLL - UPS</h2>
+                    <p>Doble Vía fue un proyecto que creé para reforzar el aprendizaje matemático de los niños en mi ciudad, utilizando videojuegos como herramienta educativa. Adapté un software existente y lo integré en un dispositivo tecnológico interactivo, alineado con los Objetivos de Desarrollo Sostenible (ODS). Este proyecto permitió a los niños aprender matemáticas de forma divertida y efectiva, aprovechando la tecnología para impulsar su educación.</p>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1600132806608-231446b2e7af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2plY3RzfGVufDB8fDB8fHww" alt="Projects">
+                    </div>
+                </article>
+                <article>
+                    <h2>Doble Vía: UCLL - UPS</h2>
+                    <p>Doble Vía fue un proyecto que creé para reforzar el aprendizaje matemático de los niños en mi ciudad, utilizando videojuegos como herramienta educativa. Adapté un software existente y lo integré en un dispositivo tecnológico interactivo, alineado con los Objetivos de Desarrollo Sostenible (ODS). Este proyecto permitió a los niños aprender matemáticas de forma divertida y efectiva, aprovechando la tecnología para impulsar su educación.</p>
+                    <div>
+                        <img src="https://plus.unsplash.com/premium_photo-1661281203773-833d30e370ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2plY3RzfGVufDB8fDB8fHww" alt="Projects">
+                    </div>
+                </article>
+                <article>
+                    <h2>Doble Vía: UCLL - UPS</h2>
+                    <p>Doble Vía fue un proyecto que creé para reforzar el aprendizaje matemático de los niños en mi ciudad, utilizando videojuegos como herramienta educativa. Adapté un software existente y lo integré en un dispositivo tecnológico interactivo, alineado con los Objetivos de Desarrollo Sostenible (ODS). Este proyecto permitió a los niños aprender matemáticas de forma divertida y efectiva, aprovechando la tecnología para impulsar su educación.</p>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/2196235576/es/foto/equipo-de-marketing-analizando-datos-y-planificando-nueva-estrategia.webp?a=1&b=1&s=612x612&w=0&k=20&c=krVd_ClND7-9Xh-daj0BMKEprJHEmb7y5wK0huzqrI4=" alt="Projects">
+                    </div>
+                </article>
+                </div>
         </section>
         
         <section class="portfolio-contact">
-            <div>
-                <img src="" alt="">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fHww" alt="">
             </div>
-            <div>
-                <div>
-                    <h1></h1>
-                    <p></p>
+            <div class="form">
+                <div class="title">
+                    <h1>Contáctanos</h1>
+                    <p>Para tener más detalles acerca de cómo trabajamos puedes llenar el siguiente formulario:</p>
                 </div>
 
-                <div>
+                <div class="info">
                     <form action="#">
-                        <div>
+                        <div class="group">
                             <label for="nombre">Nombre</label>
                             <input id="nombre" type="text" placeholder="Nombre">
                         </div>
 
-                        <div>
+                        <div class="group">
                             <label for="apellido">Apellido</label>
                             <input id="apellido" type="text" placeholder="Apellido">
                         </div>
 
-                        <div>
+                        <div class="group">
                             <label for="email">Email</label>
                             <input id="email" type="email" placeholder="Email">
                         </div>
 
-                        <div>
+                        <div class="group">
                             <label for="nota">Nota</label>
                             <textarea name="nota" id="nota" placeholder="Nota"></textarea>
                         </div>
-
-                        <div>
                             <button type="submit">Enviar</button>
-                        </div>
                     </form>
                 </div>
 
